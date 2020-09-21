@@ -402,13 +402,13 @@ A continuación se consulta el resultado en la siguiente tabla
 
 | resultado |                                                               |
 | ---       | ---                                                           |
-| 1 - 2     | Fallo                                                         |
+| 0 - 2     | Fallo                                                         |
 | 3         | El objetivo es empujado S en dirección contraria al atacante. |
 | 4 - 7     | El objetivo recibe un impacto y es empujado S.                |
 | 8 - 9     | El objetivo recibe 2 impactos y es empujado S.                |
 | 10+       | El objetivo es destruido                                      |
 
-Adicionalmente, con un resultado de 2 o más, el jugador coloca un marcador de artillería a S o menos del objetivo y a S o más de cualquier otro marcador.
+Adicionalmente, con un resultado final de 2 o más, el jugador coloca un marcador de artillería a S o menos del objetivo y a S o más de cualquier otro marcador.
 
 Las reacciones a acciones de disparo se efectuan después del disparo de la unidad activa.
 
