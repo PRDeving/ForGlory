@@ -2,6 +2,8 @@
 
 ## Core Rulebook
 
+![portada](/img/portada.jpg)
+
 ## [General](#general)
 
 For glory es un marco modular de reglas y mecánicas por capas para representar batallas a gran escala en la época de la pólvora negra.
@@ -19,7 +21,7 @@ De modo que si jugásemos con miniaturas de 15mm y quisiésemos mantener las esc
 
 ### [Bases](#bases)
 
-En For Glory, cada brigada es representada por una base. El tamaño de las bases no es relevante siempre que sea consistente en ambos bandos. De todos modos, se recomienda usar bases de 50x30mm para infantería, caballería y artillería así como bases redondas de 20mm para oficiales.
+En For Glory, cada brigada es representada por una base. El tamaño de las bases no es relevante siempre que sea consistente en ambos bandos para cada tipo de tropa. De todos modos, se recomienda usar bases de 50x30mm para infantería, caballería y artillería así como bases redondas de 20mm para oficiales.
 
 Es importante entender que en For Glory, el tamaño de la base no representa el tamaño del frontal de la unidad, si no el area de influencia de esta. Sistemas de escaramuza, formaciones, etc están abstraídos en las reglas de modo que, aunque una peana de 50x30 a efectos de juego representaría algo más de 1km de frontal, esto no significa que la linea física que formarían los soldados en el campo de batalla tuviese esa extensión, si no que, para esa cantidad de hombres, ese sería aproximadamente el terreno que tendrían contronlados entre escaramuzadores, linea, refuerzos y pequeños movimientos de batallones y compañías.
 
@@ -53,13 +55,21 @@ Dado que todas las reglas en For Glory aplican a bases de unidades y no a miniat
 
 - Destacamento
 
-    Una o más brigadas fuera del rango de acción de su General de división y a [S](#medidas) o menos entre sí se considera un destacamento.
+    Una o más brigadas fuera del rango de acción de su General de división ([L](#medidas)) y a [S](#medidas) o menos entre sí se considera un destacamento.
+
+    ![destacamentos](/img/destacamentos.jpg)
+
+    En el ejemplo, las unidades de los **destacamentos A y B** están a más de L del oficial, por lo que a efectos de control, no forman parte de su división, de igual modo, las unidades de ambos destacamentos están a más de S entre sí, por lo que forman dos destacamentos separados. La **división A** está compuesta por todas las unidades originales de la división que permanecen a L o menos del oficial.
 
 - Area de reacción
 
     El area de reacción representa el area de control de una unidad. Se considera area de reacción todo el terreno dentro del area de visión de una unidad y dentro de su distancia de movimiento.
 
     Las unidades pueden llevar acabo acciones de reacción cuando un enemigo se activa en su area de reacción.
+
+    ![area de reacción](/img/area-de-reaccion.png)
+
+    Ejemplo de area de reacción de una unidad de infantería cuyo movimiento es M (4")
 
 
 ### [Medidas](#medidas)
@@ -78,11 +88,15 @@ En For Glory las medidas se toman desde el punto más cercano de las unidades a 
 
 ### [Visión](#visión)
 
-En For Glory las unidades ven todo aquello que se encuentra directamente delante. la linea de visión es, por lo tanto, la proyección del frontal de la peana. Algo es visible cuando se encuentra mínimamente dentro de dicho area. Algo está oscurecido si al menos el 50% se encuentra fuera de la linea de visión.
+En For Glory las unidades ven todo aquello que se encuentra directamente delante. la linea de visión es, por lo tanto, la proyección del frontal de la peana. Podría considerarse como la extensión al infinito del area de reacción. Algo es visible cuando se encuentra mínimamente dentro de dicho area. Algo está oscurecido si al menos el 50% se encuentra fuera de la linea de visión.
 
 La linea de visión en For Glory solo se ve interrumpida por unidades, bosques, poblaciones, o colinas. Dos unidades no se ven si están a lados opuestos de cualquiera de estos elementos.
 
 Otros elementos como campos, vallas, etc no afectan a la visión.
+
+![visión](/img/vision.jpg)
+
+En el ejemplo, las unidades **A y B** tienen un bosque entre sí y no se ven. La unidad **B** no ve a la unidad **C**, está fuera de su ángulo de visión. La unidad **C** ve a la unidad **B** aunque oscurecida, dado que algo más del 50% de esta se encuentra oculta tras el bosque.
 
 ### [Unidades](#unidades)
 
@@ -170,6 +184,10 @@ Los oficiales no pueden reaccionar
 
     Si un General de división cae muerto, algún rango inferiór tomará el mando con insuficiente eficacia. La miniatura de oficial pierde su dado de experiencia (que será 0 a partir del momento) y se recoloca en cualquier otro lugar donde no sea el único objetivo de ningún enemigo y  ninguna de sus unidades estén a más de L. Si esto es imposible, la división se desbanda y se retira de juego.
 
+![carga a oficial](/img/carga-oficial.jpg)
+
+En el ejemplo, se aprecia como el único objetivo válido para la **brigada A** en la **imagen A** es el oficial, de modo que el jugador decide realizar una carga (nótese que también podría haber disparado si prefiriese. En la imagen **B** la brigada hace contacto con el general de división enemigo, que al ser un oficial no puede reaccionar como una unidad normal haría. Al ser alcanzado, el oficial se retira de la partida, pierde su dado de experiencia y se recoloca en otro lugar válido (imagen **C**)
+
 ### [Órdenes](#órdenes)
 
 Cuando un oficial se activa podrá dar órdenes a su división.
@@ -208,6 +226,14 @@ Si la unidad supera el chequeo, podrá realizar cualquier acción de las disponi
 
 Una unidad puede reaccionar una sola vez por activación. De modo que si reacciona disparando al movimiento de un enemigo no podrá reaccionar disparando a otro enemigo de la misma división este turno.
 
+![reacción disparo](/img/reaccion-disparo.jpg)
+
+En la **imagen A** del ejemplo, la unidad de caballería declara una carga completando su movimiento hasta hacer contacto con su objetivo. En este momento (**imagen B**), tal y como se detalla en la explicación de [carga](#carga), la infantería decide reaccionar disparando, teniendo que hacer un chequeo de moral que resulta exitoso. La unidad de infantería dispara en respuesta a la carga y consigue infligir una herida y forzar un empuje en la caballería (**imagen C**) cortando así su carga y evitando el combate cuerpo a cuerpo.
+
+![reacción carga](/img/reaccion-carga.jpg)
+
+En la **imagen A**, la infantería inglesa (derecha) decide aproximarse a la linea española para disparar. Al entrar en area de reacción (**imagen B**) y antes del disparo como se explica en su apartado correspondiente de [órdenes](#órdenes), los españoles deciden llevar a cabo una reacción, superan el chequeo y cargan contra la linea inglesa (**imagen C**), esto desencadena un combate cuerpo a cuerpo, cancelando de este modo el disparo que el jugador inglés pretendía efectuar.
+
 ## [Impactos, Daño y Moral](#impactos-daño-y-moral)
 
 En For Glory se simplifica el daño, la moral y el cansancio en un solo valor llamado **Impactos**
@@ -244,14 +270,17 @@ Un 1 natural en la tirada es siempre un fallo y un 6 es siempre un éxito indepe
 
 Un chequeo de liderazgo se realiza tirando 1D6, sumando la experiencia del oficial y aplicando los siguientes modificadores:
 
-- +2 si se encuentra a S o menos del estado mayor
+- +2 si está a S o menos del estado mayor
 - -1 por cada contador de brigada perdida
-- -2 por cada medida XL adicional a la primera que lo separe del estado mayor, redondeado hacia arriba (si el oficial se encuentra a 8" del estado mayor no tendrá penalización, en cambio, a 12" del estado mayor tendrá -2 y a 38" tendrá -8 a la tirada)
+- -2 por cada tramo de XL que lo separe del estado mayor, redondeado hacia arriba (si el oficial se encuentra a 8" del estado mayor tendrá -2, a 12" del estado mayor tendrá -4 y a 38" tendrá -8 a la tirada)
 
 Si el resultado es menor o igual que 0, se considera fallo.
 
 Un 1 natural en la tirada es siempre un fallo y un 6 es siempre un éxito independientemente de los modificadores.
 
+![distancia general](/img/distancia-general.jpg)
+
+En el ejemplo, al realizar un chequeo de liderazgo, el general **A** se encuentra a S o menos del estado mayor, de modo que no obtendrá el -2 a su tirada por distancia, dado que el -2 se cancela por el +2, de modo que, junto a su experiencia, suma 4, solo un resultado de 1 en la tirada de dado le haría fallar el chequeo. El oficial **B** está a más de S y a menos de XL del estado mayor, de modo que tiene -2 a su tirada, dado que a su tirada se le suma su experiencia, sería 3, al ser más que 0, solo fallaría el chequeo con un 1. El oficial **C** se encuentra a más de XL del estado mayor, de modo que tiene un -2 por cada tramo de XL, en este caso un total de -4 a su tirada, dado que su experiencia es 3, necesita un resultado de 2 o más para superar el chequeo. Si hubiese otro oficial de experiencia 4 fuera de la imagen a 35" del estado mayor, tendría -8 a su tirada, de modo que solo un 5 o 6 le permitiría superar el chequeo (recordemos que 5 sumado a su experiencia suma 9)
 
 ## [La partida](#la-partida)
 
@@ -342,6 +371,41 @@ En For Glory no hay turnos, la partida se divide en rondas de dos fases que se v
 
     Cuando todas las divisiones se han activado se mueve el estado mayor.
 
+
+### [Ejemplo de partida](#ejemplo-de-partida)
+
+![ejemplo iniciativa](/img/ejemplo-partida-iniciativa.jpg)
+
+En la imagen se ve el ejemplo de una fase de iniciativa, donde cada jugador ha tirado los dados de iniciativa correspondientes a cada oficial. Nótese que el oficial inglés de abajo a la derecha, al estar a más de XL de su superior solo dispone de un dado.
+
+![ejemplo activación 1](/img/ejemplo-partida-activacion-1.jpg)
+
+A continuación, y empezando por el oficial de más iniciativa, todas las divisiones se van activando. En la imagen vemos como el oficial activo obtiene un 2 en su tirada de liderazgo. Al estar a S o menos del estado mayor no tiene penalizadores, de modo que solo un 1 podía hacerle fallar el chequeo.
+
+![ejemplo activación 2](/img/ejemplo-partida-activacion-2.jpg)
+
+El jugador decide mover la división, después de mover todas las unidades de esta, mueve al oficial.
+
+![ejemplo activación 3](/img/ejemplo-partida-activacion-3.jpg)
+
+Una vez ha movido el oficial, la activación de la división a terminado y se activa el siguiente oficial con mayor iniciativa. En este caso el oficial inglés del centro de la imagen y el oficial español tienen la misma iniciativa, el desempate se hace con la experiencia de estos, de modo que es turno del oficial español. El resultado de su tirada es 2, este oficial se encuentra a 24" de su superior (fuera de la imagen) de modo que tiene -6 a su tirada, solo un 1 podría forzarle a fallar el chequeo (-6 + experiencia *6* + dado *2* = 2).
+
+![ejemplo activación 4](/img/ejemplo-partida-activacion-4.jpg)
+
+El jugador español coloca sus unidades en linea y decide no mover el oficial, terminando así su activación.
+
+![ejemplo activación 5](/img/ejemplo-partida-activacion-5.jpg)
+
+Ahora es turno del oficial inglés que decide avanzar su linea y disparar a la unidad enemiga (**B**). la unidad española **B** intenta reaccionar, fallando el chequeo. Nótese que la unidad española **C** no puede reaccionar, dado que **A**, pese a estar en alcance de reacción, está fuera de su campo de visión. El resultado del disparo de **A** provoca un impacto en **B** y le fuerza a retirarse S. En este momento, el jugador decide que **A** no gane el terreno arrebatado a **B**, pese a poder hacer un movimiento de S tal como se explica en la sección de [disparo](#disparo).
+
+![ejemplo activación 6](/img/ejemplo-partida-activacion-6.jpg)
+
+A continuación se activa el último oficial, que al sacar un 1 en la tirada falla el chequeo de liderazgo automáticamente. Toda su división cuenta como **desorganizada** hasta su siguiente activación.
+
+![ejemplo activación 7](/img/ejemplo-partida-activacion-7.jpg)
+
+Con la división desorganizada, el jugador inglés no se atreve a cargar con la caballería del centro por temor a los penalizadores, de modo que recoloca sus unidades dando así por finalizada la fase de acciones y con ella la ronda. A continuación, y ya con todos los oficiales activados, se mueven los estados mayores si se desea y se comienza una nueva, se vuelven a realizar las tiradas de iniciativa, etc.
+
 ## [Acciones](#acciones)
 
 ### [Movimiento](#movimiento)
@@ -370,6 +434,14 @@ Las acciones de reacción a una carga se llevan a cabo en cualquier momento del 
 Las unidades de caballería pueden realizar un movimiento de M extra una única vez por activación tras una carga exitosa (aquella en la que el enemigo huye). Este movimiento no dispara acciones de reacción enemigas. Este movimiento puede utilizarse para encadenar una segunda carga. Este movimiento extra también está disponible en caso de una carga de reacción. Si la unidad objetivo de la carga decidió reaccionar retirándose, la carga se considera exitosa, de modo que la unidad de caballería que cargó podrá realizar su movimiento extra.
 
 Una unidad con 2 impactos que recibe una carga debe realizar un [chequeo de moral](#chequeo-de-moral), siendo destruida inmediatamente en caso de fallo.
+
+![carga caballería 1](/img/carga-caballeria-1.jpg)
+
+En la **imagen A** del ejemplo, la unidad de caballería decide cargar a la unidad de infantería por el flanco. La infantería no puede reaccionar (está fuera de su visión), de modo que el combate se lleva a cabo, ambos jugadores tiran un dado y el jugador que ha efectuado la carga suma 4 al resultado (+2 por carga de caballería y +2 por carga por el flanco) con tal fortuna que destruye a su objetivo (**imagen B**).
+
+![carga caballería 2](/img/carga-caballeria-2.jpg)
+
+Al haber ganado la carga, la caballería puede hacer su movimiento adicional como prefiera, recolocándose hasta M como si de un movimiento normal se tratase (**imagen A**) o reconduciendo su carga contra la unidad enemiga que queda (**imagen B**)
 
 ### [Disparo](#disparo)
 
@@ -408,13 +480,25 @@ A continuación se consulta el resultado en la siguiente tabla
 | 8 - 9     | El objetivo recibe 2 impactos y es empujado S.                |
 | 10+       | El objetivo es destruido                                      |
 
-Adicionalmente, con un resultado final de 2 o más, el jugador coloca un marcador de artillería a S o menos del objetivo y a S o más de cualquier otro marcador.
+Adicionalmente, con un resultado final de 2 o más y solo si el disparo lo ha efectuado una unidad de artillería, el jugador coloca un marcador de artillería a S o menos del objetivo y a S o más de cualquier otro marcador.
 
 Las reacciones a acciones de disparo se efectuan después del disparo de la unidad activa.
 
 Cuando una unidad es empujada como resultado de una acción de disparo que no sea de reacción, la unidad que ha forzado el empuje puede decidir perseguir a la unidad que se retira avanzando S en la misma dirección.
 
 Cuando una unidad es empujada como resultado de una acción de reacción, la acción de esta se interrumpe. Si se movió para poder disparar no podrá hacerlo, si realizó una carga no podrá completarla. Si la unidad es de caballería y fué empujada como reacción a una carga, tampoco podrá realizar su movimiento especial.
+
+![disparo artillería 1](/img/disparo-artilleria-1.jpg)
+
+En la **imagen A** del ejemplo, la batería de artillería de campo dispara contra una unidad con un resultado de 4 que queda en 2 tras aplicar el penalizador. De modo que no impacta pero el jugador coloca un marcador de fuego de artillería. En la **imagen B**, la misma batería dispara al mismo objetivo consiguiendo el mismo resultado en la tirada, en este caso, al existir un marcador, obtiene +1 en el resultado, de modo que el resultado después de modificadores es 3 en lugar de 2 (4 + 1 por el marcador, -2 por artillería de campo = 3), en este caso, el enemigo es empujado y el atacante, al tener un resultado final igual o mayor que 2, coloca un nuevo marcador (**imagen C**).
+
+![disparo artillería 2](/img/disparo-artilleria-2.jpg)
+
+En este supuesto, habiendo ya 2 marcadores a S o menos del objetivo, un nuevo disparo con mismo resultado (4) sería un resultado total de 4 (4 +1 +1 -2), de modo que el objetivo recibe un impacto, es empujado y el atacante coloca un nuevo marcador.
+
+
+Nótese la importancia de los marcadores de artillería para controlar zonas y forzar al enemigo a retirarse.
+
 
 ### [Cuerpo a Cuerpo](#cuerpo-a-cuerpo)
 
@@ -439,3 +523,13 @@ El jugador que haga retroceder al enemigo será el ganador del combate.
 | 4 - 6     | Todas las unidades del enemigo en el combate reciben 2 impactos y son empujados S                                                  |
 | 7+        | El enemigo es destruido                                                                                                            |
 
+![carga multiple](/img/carga-multiple.jpg)
+
+En el ejemplo, dos unidades españolas cargan contra una inglesa, de modo que el combate se resuelve tirando dos dados el jugador español y uno el inglés y aplicando los modificadores.
+En este caso, la suma de resultados de los atacantes es 9, mientras que el inglés es 2.
+
+![carga multiple 2](/img/carga-multiple-2.jpg)
+
+El español tiene -1 por atacar de frente con una unidad y +2 por flanquear con otra, un total de +1 que sumado al 9 de las tiradas hace un valor de combate de 10.
+El inglés no aplica ningún modificador, de modo que su resultado final es 2.
+Al comparar se ve que el español le saca 8 puntos de ventaja, que al comparar en la tabla arroja un resultado de enemigo destruido. La unidad de infantería inglesa es retirada de la partida y se coloca un contador de brigada perdida en su oficial.
