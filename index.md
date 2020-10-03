@@ -1,4 +1,4 @@
-## For Glory v3.0 rev. Sept/2020
+## For Glory v3.0.1 rev. Oct/2020 - En Desarrollo
 
 ## Core Rulebook
 
@@ -259,10 +259,11 @@ Un chequeo de moral se realiza tirando 1D6 y aplicando los siguientes modificado
 - +2 si el oficial está a S o menos
 - -1 por cada contador de brigada perdida del oficial de la división.
 - -1 por cada impacto en la unidad
+- -2 si la unidad está desorganizada
 - -2 si la unidad forma parte de un [destacamento](#terminología)
 - -2 si se está realizando una [acción de reacción](#acciones-de-reacción)
 
-Si el resultado es menor o igual que 0, se considera fallo.
+Si el resultado es menor o igual que 3, se considera fallo.
 
 Un 1 natural en la tirada es siempre un fallo y un 6 es siempre un éxito independientemente de los modificadores.
 
@@ -272,15 +273,15 @@ Un chequeo de liderazgo se realiza tirando 1D6, sumando la experiencia del ofici
 
 - +2 si está a S o menos del estado mayor
 - -1 por cada contador de brigada perdida
-- -2 por cada tramo de XL que lo separe del estado mayor, redondeado hacia arriba (si el oficial se encuentra a 8" del estado mayor tendrá -2, a 12" del estado mayor tendrá -4 y a 38" tendrá -8 a la tirada)
+- -1 por cada tramo de XL que lo separe del estado mayor, redondeado hacia arriba (si el oficial se encuentra a 8" del estado mayor tendrá -1, a 12" del estado mayor tendrá -2 y a 38" tendrá -4 a la tirada)
 
-Si el resultado es menor o igual que 0, se considera fallo.
+Si el resultado es menor o igual que 3, se considera fallo.
 
 Un 1 natural en la tirada es siempre un fallo y un 6 es siempre un éxito independientemente de los modificadores.
 
 ![distancia general](/img/distancia-general.jpg)
 
-En el ejemplo, al realizar un chequeo de liderazgo, el general **A** se encuentra a S o menos del estado mayor, de modo que no obtendrá el -2 a su tirada por distancia, dado que el -2 se cancela por el +2, de modo que, junto a su experiencia, suma 4, solo un resultado de 1 en la tirada de dado le haría fallar el chequeo. El oficial **B** está a más de S y a menos de XL del estado mayor, de modo que tiene -2 a su tirada, dado que a su tirada se le suma su experiencia, sería 3, al ser más que 0, solo fallaría el chequeo con un 1. El oficial **C** se encuentra a más de XL del estado mayor, de modo que tiene un -2 por cada tramo de XL, en este caso un total de -4 a su tirada, dado que su experiencia es 3, necesita un resultado de 2 o más para superar el chequeo. Si hubiese otro oficial de experiencia 4 fuera de la imagen a 35" del estado mayor, tendría -8 a su tirada, de modo que solo un 5 o 6 le permitiría superar el chequeo (recordemos que 5 sumado a su experiencia suma 9)
+En el ejemplo, al realizar un chequeo de liderazgo, el general **A** se encuentra a S o menos del estado mayor, de modo que no obtendrá el -1 a su tirada por distancia, dado que el -1 se cancela por el +2, de modo que, junto a su experiencia, suma 5. El oficial **B** está a más de S y a menos de XL del estado mayor, de modo que tiene -1 a su tirada, dado que a su tirada se le suma su experiencia, sería 4, al ser más que 3 no fallaría el chequeo. El oficial **C** se encuentra a más de XL del estado mayor, de modo que tiene un -1 por cada tramo de XL, en este caso un total de -2 a su tirada, dado que su experiencia es 3, necesita un resultado de 3 o más para superar el chequeo. Si hubiese otro oficial de experiencia 4 fuera de la imagen a 35" del estado mayor, tendría -4 a su tirada, de modo que solo un 4, 5 o 6 le permitiría superar el chequeo.
 
 ## [La partida](#la-partida)
 
@@ -373,6 +374,9 @@ En For Glory no hay turnos, la partida se divide en rondas de dos fases que se v
 
 
 ### [Ejemplo de partida](#ejemplo-de-partida)
+
+**!!!Esta sección hay que adecuarla a los nuevos cambios en chequeos, tomar solo como ejemplo, se reescribirá en breve**
+
 
 ![ejemplo iniciativa](/img/ejemplo-partida-iniciativa.jpg)
 
