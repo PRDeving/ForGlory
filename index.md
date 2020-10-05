@@ -1,8 +1,10 @@
-## For Glory v3.0.1 rev. Oct/2020 - En Desarrollo
+## For Glory v3.1.0 rev. Oct/2020
 
 ## Core Rulebook
 
 ![portada](/img/portada.jpg)
+
+[Tablas resumen](tabla_resumen.md)
 
 ## [General](#general)
 
@@ -23,7 +25,7 @@ De modo que si jugásemos con miniaturas de 15mm y quisiésemos mantener las esc
 
 En For Glory, cada brigada es representada por una base. El tamaño de las bases no es relevante siempre que sea consistente en ambos bandos para cada tipo de tropa. De todos modos, se recomienda usar bases de 50x30mm para infantería, caballería y artillería así como bases redondas de 20mm para oficiales.
 
-Es importante entender que en For Glory, el tamaño de la base no representa el tamaño del frontal de la unidad, si no el area de influencia de esta. Sistemas de escaramuza, formaciones, etc están abstraídos en las reglas de modo que, aunque una peana de 50x30 a efectos de juego representaría algo más de 1km de frontal, esto no significa que la linea física que formarían los soldados en el campo de batalla tuviese esa extensión, si no que, para esa cantidad de hombres, ese sería aproximadamente el terreno que tendrían contronlados entre escaramuzadores, linea, refuerzos y pequeños movimientos de batallones y compañías.
+Es importante entender que en For Glory, el tamaño de la base no representa el tamaño del frontal de la unidad, si no el area de influencia de esta. Sistemas de escaramuza, formaciones, etc están abstraídos en las reglas de modo que, aunque una peana de 50x30 a efectos de juego representaría 500 metros de frontal, esto no significa que la linea física que formarían los soldados en el campo de batalla tuviese esa extensión, si no que, para esa cantidad de hombres, ese sería aproximadamente el terreno que tendrían contronlados entre escaramuzadores, linea, refuerzos y pequeños movimientos de batallones y compañías.
 
 ### [Miniaturas](#miniaturas)
 
@@ -33,11 +35,11 @@ Dado que todas las reglas en For Glory aplican a bases de unidades y no a miniat
 
 ### [Terminología](#terminología)
 
-- Brigada, Escuadrón y Batería
+- Brigada y Batería
 
     Dichos términos hacen referencia a los cuerpos mínimos de infantería, caballería y artillería respectivamente con representación en mesa.
 
-    Una brigada es un cuerpo dirigido por un coronel o general de brigada compuesto por batallones de distintos cuerpos y especialidades. Una brigada de infantería representa un cuerpo mayoritariamente de infantería, incluso si dentro de la propia brigada pudiese haber cuerpos de escaramuzadores, granaderos o caballería ligera.
+    Una brigada es un cuerpo dirigido por un coronel o general de brigada compuesto principalmente por batallones de distintos cuerpos y especialidades de infantería con apoyo de artillería ligera o de escuadrones de caballería. Una brigada de infantería representa un cuerpo mayoritariamente de infantería, incluso si dentro de la propia brigada pudiese haber cuerpos de escaramuzadores, granaderos o caballería. En mesa también tienen representación cuerpos de escuadrones de caballería bajo las órdenes de un oficial, también determinado brigada.
 
     A efectos de miniaturas, las brigadas tienden a mostrar la representación mayoritaria (por importancia) de sus efectivos aunque un jugador puede decidir representar escaramuzadores, granaderos etc con miniaturas si lo prefiere.
 
@@ -55,11 +57,11 @@ Dado que todas las reglas en For Glory aplican a bases de unidades y no a miniat
 
 - Destacamento
 
-    Una o más brigadas fuera del rango de acción de su General de división ([L](#medidas)) y a [S](#medidas) o menos entre sí se considera un destacamento.
+    Una o más brigadas fuera del rango de acción de su General de división ([L](#medidas)) y a [XS](#medidas) o menos entre sí se considera un destacamento.
 
     ![destacamentos](/img/destacamentos.jpg)
 
-    En el ejemplo, las unidades de los **destacamentos A y B** están a más de L del oficial, por lo que a efectos de control, no forman parte de su división, de igual modo, las unidades de ambos destacamentos están a más de S entre sí, por lo que forman dos destacamentos separados. La **división A** está compuesta por todas las unidades originales de la división que permanecen a L o menos del oficial.
+    En el ejemplo, las unidades de los **destacamentos A y B** están a más de L del oficial, por lo que a efectos de control, no forman parte de su división, de igual modo, las unidades de ambos destacamentos están a más de XS entre sí, por lo que forman dos destacamentos separados. La **división A** está compuesta por todas las unidades originales de la división que permanecen a L o menos del oficial.
 
 - Area de reacción
 
@@ -69,15 +71,16 @@ Dado que todas las reglas en For Glory aplican a bases de unidades y no a miniat
 
     ![area de reacción](/img/area-de-reaccion.png)
 
-    Ejemplo de area de reacción de una unidad de infantería cuyo movimiento es M (4")
+    Ejemplo de area de reacción de una unidad de infantería cuyo movimiento es S (4")
 
 
 ### [Medidas](#medidas)
 
 En For Glory se utilizan 4 medidas estandar
 
-- S (Small) 2" - 5cm - 500m
-- M (Mid) 4" - 10cm - 1km
+- XS (eXtra Small) 2" - 5cm - 500m
+- S (Small) 4" - 10cm - 1km
+- M (Mid) 6" - 15cm - 1.5km
 - L (Large) 8" - 20cm - 2km
 - XL (eXtra large) 10" - 25cm - 2,5km
 
@@ -94,6 +97,8 @@ La linea de visión en For Glory solo se ve interrumpida por unidades, bosques, 
 
 Otros elementos como campos, vallas, etc no afectan a la visión.
 
+Una unidad oscurecida cuenta con covertura.
+
 ![visión](/img/vision.jpg)
 
 En el ejemplo, las unidades **A y B** tienen un bosque entre sí y no se ven. La unidad **B** no ve a la unidad **C**, está fuera de su ángulo de visión. La unidad **C** ve a la unidad **B** aunque oscurecida, dado que algo más del 50% de esta se encuentra oculta tras el bosque.
@@ -102,19 +107,127 @@ En el ejemplo, las unidades **A y B** tienen un bosque entre sí y no se ven. La
 
 Debido a su filosofía modular, For Glory plantea una abstracción de las unidades presentes en los conflictos de los siglos XVI al XIX.
 
+Las tropas en for glory tienen un tipo, una categoría y una calidad.
+
+#### [Tipo de unidades](#tipo-de-unidades)
+
+El tipo de las unidades se utiliza para reglas específicas.
+
 - Infantería
 
-    Se considera infantería toda unidad que marcha a pié
+    Se considera infantería toda unidad que marcha a pié.
 
 - Caballería
 
-    Se considera caballería toda unidad con montura
+    Se considera caballería toda unidad con montura.
 
 - Artillería
 
     Se considera artillería toda unidad que hace uso de una máquina de guerra a distancia.
 
-Especificaciones para diferentes tipos de cada una de las categorías se encuentran en el suplemento "Unidades".
+#### [Categoría de unidades](#categoría-de-unidades)
+
+La categoría de las unidades, ademas de utilizarse para definir reglas específicas, define su calidad de combate y su movimiento.
+
+- Infantería de línea
+
+    La categoría de infantería de linea no se refiere solamente al tipo de unidad concreto compartido durante el periodo llamado "infantería de lionea" si no al conjunto de infantería que lucha de forma ordenada en bloque. En esta categoría entran granaderos, infantería de linea, milicia en bloque, etc.
+
+    Su rol es ser la espina dorsal de los ejércitos, una tropa versatil y capáz de cualquier cosa con el debido apoyo.
+
+- Infantería ligera
+
+    La infantería ligera hace referencia tanto a destacamentos de infantería en orden abierto como a escaramuzadores tipo jager o ranger.
+
+    Su rol es posicional, flanqueo, toma de objetivos y acoso a las posiciones de artillería y lineas de suministro enemigas.
+
+- Caballería pesada
+
+    La caballería pesada incluye husars, dragones y toda aquella caballería con armadura parcial o total que formaba la cabeza de lanza en las cargas de caballería del periodo.
+
+    Unidades fuertes con capacidad más que sobrada para romper lineas y destruir posiciones enemigas.
+
+- Caballería ligera
+
+    La caballería ligera cuenta con unidades de caballería ágiles y de gran movilidad que pese a no ser tan fuertes como la caballería pesada, cuentan con mayor agilidad e iniciativa.
+
+    Vitales en el campo de batalla para hostigar los flancos del enemigo, destruir unidades en retirada o acosar las lineas de suministro.
+
+- Artillería a pié
+
+    La artillería a pié representa todas las piezas de 9pd a 24pd usadas por los ejércitos del periodo. Su tripulación viajaba a pié, eso hace a estas unidades mortíferas, peligrosas y muy lentas.
+
+    La artillería a pié tiene una increible capacidad de destrucción, pero su tamaño, su peso y la ausencia de medios físicos hace que sea dificil de maniobrar, limitando su uso a puntos bien comunicados.
+
+- Artillería montada
+
+    La artillería montada está formada por pequeñas piezas de cañones y howitzers de 4pd a 9pd tiradas por caballos. Su tripulación, también a caballo le confiere a las piezas de gran agilidad y versatilidad.
+
+    Pese a ser piezas mucho más ligeras, con menor potencia de fuego y alcance, su diseño móvil los convierte en la solución perfecta para prestar apoyo de artillería en cualquiér lugar.
+
+Las unidades, dependiendo de su tipo tienen un alcance de disparo, unos modificadores para el combate específicos y una capacidad de movimiento
+
+| Código | Categoría           | tipo       | Alcance | Mod Disparo | Mod Cuerpo a Cuerpo | Movimiento base | Terreno Dificil |
+| ---    | ---                 | ---        | ---     | ---         | ---                 | ---             | ---             |
+| LnInf  | Infantería de Línea | Infantería | XS      | 0           | 0                   | S               | S               |
+| LI     | Infantería Ligera   | Infantería | S       | +1          | -1                  | S               | S               |
+| HC     | Caballería Pesada   | Caballería | -       | -           | +3                  | M               | S               |
+| LC     | Caballería Ligera   | Caballería | -       | -           | +2                  | L               | M               |
+| FA     | Artillería a pié    | Artillería | L       | -1          | -2                  | S               | -*              |
+| HA     | Artillería montada  | Artillería | M       | -2          | -1                  | M               | S               |
+| OFF    | Oficial             | -          | -       | -           | -                   | L**             | L**             |
+
+\* *No puede terminar a más de XS de una carretera*
+
+\*\* *Ignora terreno*
+
+
+#### [Calidad de unidades](#calidad-de-unidades)
+
+- Milicia
+
+    La milicia está formada por hombres (y en ocasiones mujeres) que varían de guerrilleros o milicias locales a tropa ligera con una instrucción vaga o inexistente. Usualmente reclutada por leva para efectuar trabajos domésticos como vigilancia urbana, en ocasiones de necesidad, la milicia pasaba a la acción.
+
+    Las unidades de milicia son una mala solución para el combate. Pueden ser usadas para capturar y vigilar puntos estratégicos, pero en combate tenderán a tener más fallos que éxitos.
+
+- Irregular
+
+    Regimientos de voluntarios o cuerpos de seguridad reconvertidos nutren la tropa irregular, unidades resolutivas pero deficientes.
+
+    Útiles para mantener la línea y acosar al enemigo siempre que tengan apoyo y superioridad.
+
+- Regular
+
+    Hombres formados y preparados, resolutivos y serios.
+
+    Mantendrán la línea y harán lo que se les diga, la columna vertebral de cualquiér ejército europeo.
+
+- Veterano
+
+    Regimientos curtidos en batalla, conocedores del arte de la guerra.
+
+    Mejores que la mayoría, más que capazes de hacer lo que se les ordena de forma diligente, un gran apoyo para ocasiones en las que los números están en contra.
+
+- Elite
+
+    Lo mejor, hombres con experiencia y entrenamiento de alta calidad, el orgullo de cualquier general.
+
+    Esenciales para el trabajo más complicado, capazes de grandes resultados en inferioridad aunque demasiado valiosos como para permitirse perderlos.
+
+
+La calidad de las unidades implica modificadores.
+
+| Código | Calidad   | Mod |
+| ---    | ---       | --- |
+| M      | Milicia   | -2  |
+| I      | Irregular | -1  |
+| R      | Regular   | 0   |
+| V      | Veterano  | +1  |
+| E      | Élite     | +2  |
+
+Los modificadores por calidad aplican a todas las tiradas de la unidad, no solo a las de combate.
+
+De modo que un regimiento de infantería ligera (LI) de Élite (E) que realize un disparo contará con un +3 en su tirada. Al ser élite ambién contará con un +2 para sus tiradas de [moral](#chequeo-de-moral).
 
 ### [Terreno](#terreno)
 
@@ -254,14 +367,12 @@ Los contadores de brigada perdida afectan a los chequeos de moral de las unidade
 
 ### [Chequeo de moral](#chequeo-de-moral)
 
-Un chequeo de moral se realiza tirando 1D6 y aplicando los siguientes modificadores:
+Un chequeo de moral se realiza tirando 1D6 y aplicando los modificadores de calidad de tropa que correspondan así como los siguientes modificadores:
 
-- +2 si el oficial está a S o menos
+- +2 si el oficial está a XS o menos
 - -1 por cada contador de brigada perdida del oficial de la división.
 - -1 por cada impacto en la unidad
-- -2 si la unidad está desorganizada
-- -2 si la unidad forma parte de un [destacamento](#terminología)
-- -2 si se está realizando una [acción de reacción](#acciones-de-reacción)
+- -1 si la unidad está desorganizada
 
 Si el resultado es menor o igual que 3, se considera fallo.
 
@@ -271,7 +382,7 @@ Un 1 natural en la tirada es siempre un fallo y un 6 es siempre un éxito indepe
 
 Un chequeo de liderazgo se realiza tirando 1D6, sumando la experiencia del oficial y aplicando los siguientes modificadores:
 
-- +2 si está a S o menos del estado mayor
+- +2 si está a XS o menos del estado mayor
 - -1 por cada contador de brigada perdida
 - -1 por cada tramo de XL que lo separe del estado mayor, redondeado hacia arriba (si el oficial se encuentra a 8" del estado mayor tendrá -1, a 12" del estado mayor tendrá -2 y a 38" tendrá -4 a la tirada)
 
@@ -279,9 +390,17 @@ Si el resultado es menor o igual que 3, se considera fallo.
 
 Un 1 natural en la tirada es siempre un fallo y un 6 es siempre un éxito independientemente de los modificadores.
 
+### [Unidades desorganizadas](#unidades-desorganizadas)
+
+Una unidad se considera desorganizada si forma parte de un destacamanto o tras fallar el chequeo de liderazgo.
+
+Una unidad desorganizada tiene un penalizador de 1 para todas sus tiradas (exceptuando futuros chequeos de liderazgo).
+
+Una unidad desorganizada no puede hacer [movimientos estratégicos](#movimiento-estratégico).
+
 ![distancia general](/img/distancia-general.jpg)
 
-En el ejemplo, al realizar un chequeo de liderazgo, el general **A** se encuentra a S o menos del estado mayor, de modo que no obtendrá el -1 a su tirada por distancia, dado que el -1 se cancela por el +2, de modo que, junto a su experiencia, suma 5. El oficial **B** está a más de S y a menos de XL del estado mayor, de modo que tiene -1 a su tirada, dado que a su tirada se le suma su experiencia, sería 4, al ser más que 3 no fallaría el chequeo. El oficial **C** se encuentra a más de XL del estado mayor, de modo que tiene un -1 por cada tramo de XL, en este caso un total de -2 a su tirada, dado que su experiencia es 3, necesita un resultado de 3 o más para superar el chequeo. Si hubiese otro oficial de experiencia 4 fuera de la imagen a 35" del estado mayor, tendría -4 a su tirada, de modo que solo un 4, 5 o 6 le permitiría superar el chequeo.
+En el ejemplo, al realizar un chequeo de liderazgo, el general **A** se encuentra a XS o menos del estado mayor, de modo que no obtendrá el -1 a su tirada por distancia, dado que el -1 se cancela por el +2, de modo que, junto a su experiencia, suma 5. El oficial **B** está a más de XS y a menos de XL del estado mayor, de modo que tiene -1 a su tirada, dado que a su tirada se le suma su experiencia, sería 4, al ser más que 3 no fallaría el chequeo. El oficial **C** se encuentra a más de XL del estado mayor, de modo que tiene un -1 por cada tramo de XL, en este caso un total de -2 a su tirada, dado que su experiencia es 3, necesita un resultado de 3 o más para superar el chequeo. Si hubiese otro oficial de experiencia 4 fuera de la imagen a 35" del estado mayor, tendría -4 a su tirada, de modo que solo un 4, 5 o 6 le permitiría superar el chequeo.
 
 ## [La partida](#la-partida)
 
@@ -362,7 +481,7 @@ En For Glory no hay turnos, la partida se divide en rondas de dos fases que se v
 
     En caso de superar el chequeo, el oficial puede dar órdenes tal como se describe en el [apartado de órdenes](#órdenes).
 
-    En caso de que el chequeo no sea superado, todas las unidades de la división cuentan como **desorganizadas** hasta su siguiente activación, esto afectará a su eficacia en combate. Además, un oficial que no haya superado un chequeo de liderazgo no podrá moverse en dicha activación.
+    En caso de que el chequeo no sea superado, todas las unidades de la división cuentan como **desorganizadas** hasta su siguiente activación, esto afectará a su eficacia.
 
     Los destacamentos no necesitan pasar chequeo de liderazgo, ya cuentan como desorganizados.
 
@@ -384,7 +503,7 @@ En la imagen se ve el ejemplo de una fase de iniciativa, donde cada jugador ha t
 
 ![ejemplo activación 1](/img/ejemplo-partida-activacion-1.jpg)
 
-A continuación, y empezando por el oficial de más iniciativa, todas las divisiones se van activando. En la imagen vemos como el oficial activo obtiene un 2 en su tirada de liderazgo. Al estar a S o menos del estado mayor no tiene penalizadores, de modo que solo un 1 podía hacerle fallar el chequeo.
+A continuación, y empezando por el oficial de más iniciativa, todas las divisiones se van activando. En la imagen vemos como el oficial activo obtiene un 2 en su tirada de liderazgo. Al estar a XS o menos del estado mayor no tiene penalizadores, de modo que solo un 1 podía hacerle fallar el chequeo.
 
 ![ejemplo activación 2](/img/ejemplo-partida-activacion-2.jpg)
 
@@ -400,7 +519,7 @@ El jugador español coloca sus unidades en linea y decide no mover el oficial, t
 
 ![ejemplo activación 5](/img/ejemplo-partida-activacion-5.jpg)
 
-Ahora es turno del oficial inglés que decide avanzar su linea y disparar a la unidad enemiga (**B**). la unidad española **B** intenta reaccionar, fallando el chequeo. Nótese que la unidad española **C** no puede reaccionar, dado que **A**, pese a estar en alcance de reacción, está fuera de su campo de visión. El resultado del disparo de **A** provoca un impacto en **B** y le fuerza a retirarse S. En este momento, el jugador decide que **A** no gane el terreno arrebatado a **B**, pese a poder hacer un movimiento de S tal como se explica en la sección de [disparo](#disparo).
+Ahora es turno del oficial inglés que decide avanzar su linea y disparar a la unidad enemiga (**B**). la unidad española **B** intenta reaccionar, fallando el chequeo. Nótese que la unidad española **C** no puede reaccionar, dado que **A**, pese a estar en alcance de reacción, está fuera de su campo de visión. El resultado del disparo de **A** provoca un impacto en **B** y le fuerza a retirarse S. En este momento, el jugador decide que **A** no gane el terreno arrebatado a **B**, pese a poder hacer un movimiento de XS tal como se explica en la sección de [disparo](#disparo).
 
 ![ejemplo activación 6](/img/ejemplo-partida-activacion-6.jpg)
 
@@ -416,16 +535,28 @@ Con la división desorganizada, el jugador inglés no se atreve a cargar con la 
 
 Una unidad que se mueve se ve afectada al disparar.
 
-Una unidad puede mover a través de aliados pero nunca de enemigos.
+Una unidad que puede mover a través de aliados pero nunca de enemigos siempre que no circulen por carretera.
 
-Si una unidad se mantiene a XL o más de un enemigo durante toda su activación y **su división no está desorganizada** (por lo que los destacamentos no pueden aprovecharse de este movimiento adicional), puede realizar un movimiento adicional. Adicional al movimiento por carretera, siendo así posible que una unidad que viaja por carretera y apartado del enemigo mueva tres veces su movimiento base.
+Las unidades de caballería deben detener su movimiento inmediatamente cuando entran en terreno dificil.
 
-- Infantería mueve un máximo de M
-- Caballería mueve un máximo de L
-- Artillería mueve un máximo de M
-- Oficiales mueven un máximo de L ignorando el terreno
+Las unidades de artillería a pié no pueden terminar su movimiento a más de XS de una carretera o población.
 
-Artillería y caballería deben detener su movimiento inmediatamente cuando entran en terreno dificil.
+El movimiento se mide siempre desde el centro de la unidad.
+
+Pivotar se considera movimiento.
+
+#### [Movimiento por carretera](#movimiento-por-carretera)
+
+Una unidad que realize todo su movimiento por carretera puede mover una vez su movimiento base de manera adicional.
+
+Las unidades que circulan por carretera deben mover en columna (se girarán 90 grados de modo que su frontal vaya paralelo a la carretera), y no podrán atravesar otras unidades presentes en la carretera.
+
+Las unidades que circulan por carreteras no pueden cargar, disparar ni reaccionar a activaciones enemigas.
+
+#### [Movimiento Estratégico](#movimiento-estratégico)
+
+Si una unidad se mantiene a XL o más de un enemigo durante toda su activación y **no está desorganizada** (por lo que los destacamentos no pueden aprovecharse de este movimiento adicional),
+puede mover una vez su movimiento base de manera adicional. Adicional al movimiento por carretera, siendo así posible que una unidad que viaja por carretera y apartado del enemigo mueva tres veces su movimiento base (o su movimiento por terreno dificil, según aplique).
 
 ### [Carga](#carga)
 
@@ -435,7 +566,7 @@ Un movimiento solo puede terminar en una carga si la unidad objetivo estaba en s
 
 Las acciones de reacción a una carga se llevan a cabo en cualquier momento del movimiento que la provoca y antes del combate cuerpo a cuerpo.
 
-Las unidades de caballería pueden realizar un movimiento de M extra una única vez por activación tras una carga exitosa (aquella en la que el enemigo huye). Este movimiento no dispara acciones de reacción enemigas. Este movimiento puede utilizarse para encadenar una segunda carga. Este movimiento extra también está disponible en caso de una carga de reacción. Si la unidad objetivo de la carga decidió reaccionar retirándose, la carga se considera exitosa, de modo que la unidad de caballería que cargó podrá realizar su movimiento extra.
+Las unidades de caballería pueden realizar un movimiento de S extra una única vez por activación tras una carga exitosa (aquella en la que el enemigo huye). Este movimiento no dispara acciones de reacción enemigas. Este movimiento puede utilizarse para encadenar una segunda carga. Este movimiento extra también está disponible en caso de una carga de reacción. Si la unidad objetivo de la carga decidió reaccionar retirándose, la carga se considera exitosa, de modo que la unidad de caballería que cargó podrá realizar su movimiento extra.
 
 Una unidad con 2 impactos que recibe una carga debe realizar un [chequeo de moral](#chequeo-de-moral), siendo destruida inmediatamente en caso de fallo.
 
@@ -445,92 +576,76 @@ En la **imagen A** del ejemplo, la unidad de caballería decide cargar a la unid
 
 ![carga caballería 2](/img/carga-caballeria-2.jpg)
 
-Al haber ganado la carga, la caballería puede hacer su movimiento adicional como prefiera, recolocándose hasta M como si de un movimiento normal se tratase (**imagen A**) o reconduciendo su carga contra la unidad enemiga que queda (**imagen B**)
+Al haber ganado la carga, la caballería puede hacer su movimiento adicional como prefiera, recolocándose hasta S como si de un movimiento normal se tratase (**imagen A**) o reconduciendo su carga contra la unidad enemiga que queda (**imagen B**)
 
-### [Disparo](#disparo)
+### [Combate](#combate)
 
-En For Glory los disparos se efectuan por unidad.
-Para disparar, una unidad que pueda hacerlo (infantería y artillería) escogerá un objetivo válido en su area de [visión](#visión) y tirará 1D6 aplicando los siguientes modificadores:
+En For Glory tanto el cuerpo a cuerpo como el disparo funcionan de forma similar.
+
+| General                                | Mod |
+| ---                                    | --- |
+| Por el flanco o retaguardia            | +2  |
+| Objetivo marchando por carretera       | +1  |
+| Enemigo a cubierto                     | -1  |
+| [Desorganizado](#fase-de-activaciones) | -1  |
+| Mover y disparar                       | -1  |
+| Carga de frente                        | -1  |
+| Por cada contador de impacto           | -1  |
+| Como [reacción](#acciones-de-reacción) | -2  |
+
+| Disparo Artillería                                        | Mod |
+| ---                                                       | --- |
+| Objetivo a XS o menos                                     | +2  |
+| Por cada contador de artillería a XS o menos del objetivo | +1  |
+
+
+Una vez se han hecho las tiradas tal como se explica en las secciones de [disparo](#disparo) y [cuerpo a cuerpo](#cuerpo-a-cuerpo) y se han aplicado los modificadores se consulta la siguiente tabla para ver el resultado.
+
+| Resultado | Disparo                    | Cuerpo a Cuerpo                                            |
+| ---       | ---                        | ---                                                        |
+| 0 - 2     | Fallo                      | Empate. Ambos bandos reciben un impacto y son empujados XS |
+| 3         | Enemigo Empujado XS        | Enemigos Empujados XS                                      |
+| 4 - 6     | Impacto y empujado XS      | Enemigos reciben 2 impactos y son empujados XS             |
+| 7+        | Dos impactos y empujado XS | El enemigo es destruido                                    |
+| 10+       | Enemigo destruido          | -                                                          |
+
+#### [Disparo](#disparo)
+
+Para disparar, una unidad que pueda hacerlo (infantería y artillería) escogerá un objetivo válido que se encuentre en su distancia de disparo y en su area de [visión](#visión) y tirará 1D6 aplicando los modificadores de tipo de tropa, calidad y combate explicados anteriormente.
 
 Todas las unidades de infantería deben escoger como objetivo a sus disparos la unidad enemiga más cercana.
 
-La infantería tiene un alcance de S, la artillería de campo tiene un alcance de L.
-La artillería puede disparar por encima de otras unidades, el objetivo en este caso cuenta como **oscurecido**.
+La artillería puede disparar por encima de otras unidades, el objetivo en este caso cuenta como con **cobertura**.
 
-General:
-
-- +2 . Si se dispara por el flanco
-- -1 . Objetivo [oscurecido](#visión)
-- -1 . Objetivo en [cobertura](#terreno)
-- -1 . Por cada contador de impacto
-- -1 . Si la división está [desorganizada](#fase-de-activaciones)
-- -1 . Si la unidad ha movido
-- -2 . Si el disparo es como [reacción](#acciones-de-reacción)
-
-Artillería:
-
-- +2 . Si el objetivo está a S o menos
-- +1 . Por cada contador de artillería a S o menos del objetivo
-- -1 . Con artillería pesada
-- -2 . Con artillería de campo
-
-A continuación se consulta el resultado en la siguiente tabla
-
-| resultado |                                                               |
-| ---       | ---                                                           |
-| 0 - 2     | Fallo                                                         |
-| 3         | El objetivo es empujado S en dirección contraria al atacante. |
-| 4 - 7     | El objetivo recibe un impacto y es empujado S.                |
-| 8 - 9     | El objetivo recibe 2 impactos y es empujado S.                |
-| 10+       | El objetivo es destruido                                      |
-
-Adicionalmente, con un resultado final de 2 o más y solo si el disparo lo ha efectuado una unidad de artillería, el jugador coloca un marcador de artillería a S o menos del objetivo y a S o más de cualquier otro marcador.
+Adicionalmente, con un resultado final de 2 o más y solo si el disparo lo ha efectuado una unidad de artillería, el jugador coloca un marcador de artillería a XS o menos del objetivo y a XS o más de cualquier otro marcador.
 
 Las reacciones a acciones de disparo se efectuan después del disparo de la unidad activa.
-
-Cuando una unidad es empujada como resultado de una acción de disparo que no sea de reacción, la unidad que ha forzado el empuje puede decidir perseguir a la unidad que se retira avanzando S en la misma dirección.
 
 Cuando una unidad es empujada como resultado de una acción de reacción, la acción de esta se interrumpe. Si se movió para poder disparar no podrá hacerlo, si realizó una carga no podrá completarla. Si la unidad es de caballería y fué empujada como reacción a una carga, tampoco podrá realizar su movimiento especial.
 
 ![disparo artillería 1](/img/disparo-artilleria-1.jpg)
 
-En la **imagen A** del ejemplo, la batería de artillería de campo dispara contra una unidad con un resultado de 4 que queda en 2 tras aplicar el penalizador. De modo que no impacta pero el jugador coloca un marcador de fuego de artillería. En la **imagen B**, la misma batería dispara al mismo objetivo consiguiendo el mismo resultado en la tirada, en este caso, al existir un marcador, obtiene +1 en el resultado, de modo que el resultado después de modificadores es 3 en lugar de 2 (4 + 1 por el marcador, -2 por artillería de campo = 3), en este caso, el enemigo es empujado y el atacante, al tener un resultado final igual o mayor que 2, coloca un nuevo marcador (**imagen C**).
+En la **imagen A** del ejemplo, la batería de artillería montada dispara contra una unidad con un resultado de 4 que queda en 2 tras aplicar el penalizador al disparo de su [categoría de unidad](#categoría-de-unidades). De modo que no impacta pero al obtener un resultado de 2 o más el jugador coloca un marcador de fuego de artillería. En la **imagen B**, la misma batería dispara al mismo objetivo consiguiendo el mismo resultado en la tirada, en este caso, al existir un marcador, obtiene +1 en el resultado, de modo que el resultado después de modificadores es 3 en lugar de 2 (4 + 1 por el marcador, -2 por artillería montada = 3), en este caso, el enemigo es empujado y el atacante, al tener un resultado final igual o mayor que 2, coloca un nuevo marcador (**imagen C**).
 
 ![disparo artillería 2](/img/disparo-artilleria-2.jpg)
 
-En este supuesto, habiendo ya 2 marcadores a S o menos del objetivo, un nuevo disparo con mismo resultado (4) sería un resultado total de 4 (4 +1 +1 -2), de modo que el objetivo recibe un impacto, es empujado y el atacante coloca un nuevo marcador.
-
+En este supuesto, habiendo ya 2 marcadores a XS o menos del objetivo, un nuevo disparo con mismo resultado (4) sería un resultado total de 4 (4 +1 +1 -2), de modo que el objetivo recibe un impacto, es empujado y el atacante coloca un nuevo marcador.
 
 Nótese la importancia de los marcadores de artillería para controlar zonas y forzar al enemigo a retirarse.
 
 
-### [Cuerpo a Cuerpo](#cuerpo-a-cuerpo)
+#### [Cuerpo a Cuerpo](#cuerpo-a-cuerpo)
 
 El combate se da cuando dos o más unidades enemigas se encuentran en contacto peana con peana, la acción de movimiento que da lugar a un combate se considera una carga.
 
-Para resolver el combate, cada uno de los jugadores tiran 1D6 por cada unidad en combate y se aplican los siguientes modificadores:
-
-- +2 . Si la unidad que carga es caballería.
-- +2 . Si la unidad que carga ha cargado por el flanco o retaguardia.
-- +2 . Si la unidad está en cobertura
-- -1 . Si se carga por el frente
-- -1 . Por cada contador de impacto
-- -1 . Si la división está desorganizada
-- -2 . Si es carga de reacción
+Para resolver el combate, cada uno de los jugadores tiran 1D6 por cada unidad en combate y se aplican los modificadores de calidad, categoría de tropa y combate.
 
 El jugador que haga retroceder al enemigo será el ganador del combate.
-
-| resultado |                                                                                                                                    |
-| ---       | ---                                                                                                                                |
-| 0         | Empate. Todas las unidades de ambos bandos en el combate son empujados S en dirección contraria al centro del combate              |
-| 1 - 3     | Todas las unidades de ambos bandos en el combate reciben un impacto y son empujados S en dirección contraria al centro del combate |
-| 4 - 6     | Todas las unidades del enemigo en el combate reciben 2 impactos y son empujados S                                                  |
-| 7+        | El enemigo es destruido                                                                                                            |
 
 ![carga multiple](/img/carga-multiple.jpg)
 
 En el ejemplo, dos unidades españolas cargan contra una inglesa, de modo que el combate se resuelve tirando dos dados el jugador español y uno el inglés y aplicando los modificadores.
-En este caso, la suma de resultados de los atacantes es 9, mientras que el inglés es 2.
+En este caso, dado que son infantería de linea regular, sin modificadores por calidad ni por categoría, la suma de resultados de los atacantes es 9, mientras que el inglés es 2.
 
 ![carga multiple 2](/img/carga-multiple-2.jpg)
 
